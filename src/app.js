@@ -4,7 +4,7 @@ import { PORT } from './config.js';
 
 const app = express();
 app.get('/', (req, res) => {
-  res.send('Hola 1');
+  res.send('Hola 2');
 });
 
 
