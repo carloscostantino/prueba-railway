@@ -8,9 +8,7 @@ app.get('/', (req, res) => {
 });
 
 app.get('/ping', async (req, res) => {
-    const result = await pool.query('SELECT * FROM tasks');
-    console.log(result);
-    res.send('Enviado al usurario');
+   res.send('Hello World!');
 });
 
 app.get('/tasks', async (req, res) => {
